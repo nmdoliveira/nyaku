@@ -1,0 +1,13 @@
+AllCops:
+  TargetRubyVersion: 2.5.1
+  Exclude:
+    - bin/*
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
